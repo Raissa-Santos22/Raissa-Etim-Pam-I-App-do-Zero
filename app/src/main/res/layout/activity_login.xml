@@ -40,7 +40,7 @@
             android:id="@+id/bntLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#E91E63"
+            android:background="#4CAF50"
             android:text="Criar"
             android:textSize="20sp"
             android:layout_margin="20dp"
