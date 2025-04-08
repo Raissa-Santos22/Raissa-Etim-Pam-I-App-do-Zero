@@ -1,5 +1,6 @@
 package com.example.raissaetimpamiappdozero
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -25,7 +26,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return super.onOptionsItemSelected(item)
+        return when(item.itemId){
+            R.id.sobre -> mostrarActiivtySobre()
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+    private fun mostrarActiivtySobre(): Boolean{
+        var intent = Intent (this, SobreActivity::class.java)
+        startActivity(intent)
+        finish()
+        return true
     }
 
 
