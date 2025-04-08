@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
     private fun mostrarActiivtySobre(): Boolean{
         var intent = Intent (this, SobreActivity::class.java)
         startActivity(intent)
-        finish()
+
         return true
     }
 

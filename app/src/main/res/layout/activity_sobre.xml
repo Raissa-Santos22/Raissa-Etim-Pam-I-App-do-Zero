@@ -11,12 +11,12 @@
        android:id="@+id/sobre"
        android:layout_width="match_parent"
        android:layout_height="match_parent"
-       android:text="Tela sobre nós"
+       android:text="Tela Sobre"
        android:textSize="40sp"
        android:textStyle="bold"
-       android:background="#825EC3"
+       android:background="@color/white"
        android:gravity="center"
-       android:textColor="@color/white"/>
+       android:textColor="@color/black"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
