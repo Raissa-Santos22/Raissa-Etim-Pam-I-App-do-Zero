@@ -27,12 +27,12 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when(item.itemId){
-            R.id.sobre -> mostrarActiivtySobre()
+            R.id.sobre -> mostrarActivitySobre()
             else -> super.onOptionsItemSelected(item)
         }
     }
 
-    private fun mostrarActiivtySobre(): Boolean{
+    private fun mostrarActivitySobre(): Boolean{
         var intent = Intent (this, SobreActivity::class.java)
         startActivity(intent)
 
